@@ -21,6 +21,11 @@ body{
     padding:0;
     box-sizing: border-box;
 
+    h2{
+      color:#dc143c;
+      font-size: 36px;
+    }
+
     .container{
         max-width: 800px;
         margin: 15px auto;
@@ -59,7 +64,9 @@ body{
             text-align: center;
         }
         .mykeyframes{
-          animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+         animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+         transform: rotate(20deg);
+         transition: ease-in 1s all;
         }
     }
 }

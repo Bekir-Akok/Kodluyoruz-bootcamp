@@ -8,13 +8,13 @@ const fetchKanye = () => {
       .then((data) => (kanyeWest.innerHTML = data.quote));
   } 
 
-btn.addEventListener("click" , () => {
+img.addEventListener("click" , () => {
   fetchKanye()
  img.classList.add("mykeyframes");
-  const random = Math.random() * 1000;
+ /*  const random = Math.random() * 1000; */
   setTimeout(() => {
     img.classList.remove("mykeyframes");
-  }, random);
+  }, 500);
 }
 )
 

@@ -43,6 +43,11 @@ body {
           box-sizing: border-box;
 }
 
+body h2 {
+  color: #dc143c;
+  font-size: 36px;
+}
+
 body .container {
   max-width: 800px;
   margin: 15px auto;
@@ -104,5 +109,9 @@ body .container .kayne {
 body .container .mykeyframes {
   -webkit-animation: shake 0.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
           animation: shake 0.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+  -webkit-transform: rotate(20deg);
+          transform: rotate(20deg);
+  -webkit-transition: ease-in 1s all;
+  transition: ease-in 1s all;
 }
 /*# sourceMappingURL=style.css.map */
